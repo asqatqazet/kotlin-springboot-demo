@@ -33,5 +33,9 @@ Content-Type: application/json
   "text": "Salem!"
 }
 
-### Get all the messages
+### Get all the books
+GET http://localhost:8080/books
+
+
+#### Get all messages
 GET http://localhost:8080/

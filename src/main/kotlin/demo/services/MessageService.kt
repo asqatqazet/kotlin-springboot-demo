@@ -5,7 +5,7 @@ import demo.repository.MessageRepository
 import org.springframework.stereotype.Service
 
 @Service
-class MessageService(val db: MessageRepository){
+class MessageService(var db: MessageRepository){
 
     fun findMessages():List<Message> = db.findMessages()
 
